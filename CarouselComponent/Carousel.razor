@@ -1,8 +1,11 @@
-﻿<div class="my-component">
-    This Blazor component is defined in the <strong>CarouselComponent</strong> package.
+﻿@inject IJSRuntime JSRuntime
+
+<div class="my-component">
+    <Animate Animation="Animations.ZoomIn" Duration="TimeSpan.FromSeconds(3)" Delay="TimeSpan.FromSeconds(1)">
+        <p>SOME TEXT FROM COMPONENT</p>      
+    </Animate>
 </div>
+
 @code {
-
     
-
 }

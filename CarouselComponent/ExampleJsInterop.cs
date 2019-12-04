@@ -10,7 +10,7 @@ namespace CarouselComponent
             // Implemented in exampleJsInterop.js
             return jsRuntime.InvokeAsync<string>(
                 "exampleJsFunctions.showPrompt",
-                message);
+                message);            
         }
     }
 }
