@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Blazor.Hosting;
 
-namespace BlazorCarousel
+namespace BlazorCarouselExample
 {
     public class Program
     {
