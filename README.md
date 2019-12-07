@@ -13,8 +13,8 @@ Before Starting:
 
 3. Add JS interop into _Host.cshtml (serverside blazor)
 
-    <script src="_content/BlazorAnimate/blazorAnimateInterop.js"></script>
+    	<script src="_content/BlazorAnimate/blazorAnimateInterop.js"></script>
 
-Add JS interop into wwwroot/index.html(wasm blazor)
+   Add JS interop into wwwroot/index.html(wasm blazor)
 
-    <script src="_content/BlazorAnimate/blazorAnimateInterop.js"></script>
+    	<script src="_content/BlazorAnimate/blazorAnimateInterop.js"></script>
